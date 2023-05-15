@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#main-banner":{
+    "children": [
+      "flex-layout.col#main-banner"
+    ],
+    "props": {
+      "blockClass": "main-banner"
+    }
+  },
+  
+  "flex-layout.col#main-banner":{
+    "children": [
+      "list-context.image-list#demo"
+    ]
+  },
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home/mainBanner/mainBannerDesktop01.png",
+          "mobileImage": "https://tfcxxx.vteximg.com.br/arquivos/ids/223030/CELULAR ESPECIAL_Prancheta 1.png?v=638139956508130000"
+        },
+        {
+          "image": "assets/home/mainBanner/mainBannerDesktop02.png",
+          "mobileImage": "https://tfcxxx.vteximg.com.br/arquivos/ids/223030/CELULAR ESPECIAL_Prancheta 1.png?v=638139956508130000"
+        },
+        {
+          "image": "assets/home/mainBanner/mainBannerDesktop03.png",
+          "mobileImage": "https://tfcxxx.vteximg.com.br/arquivos/ids/223030/CELULAR ESPECIAL_Prancheta 1.png?v=638139956508130000"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 37,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 4500,
+        "stopOnHover": true
+      }
+    }
+  }
+}

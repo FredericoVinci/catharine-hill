@@ -1,0 +1,158 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "header-layout.desktop": {
+    "children": [
+      "theme",
+      "flex-layout.row#telemarketing",
+      "flex-layout.row#topbar",
+      "sticky-layout#menu-principal"
+    ]
+  },
+
+  "flex-layout.row#telemarketing": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#menu-principal": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop"
+      //"MenuDesktop"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "login",
+      //"CustomLogin",
+      "minicart.v2"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "main-search"
+    }
+  },
+  "login":{
+    "props":{
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "logo#desktop",
+      "logo#desktop-scroll"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/CH_logo_vertical.png",
+      "width": "164",
+      "height": "102",
+      "blockClass": "logo-desktop"
+    }
+  },
+  "logo#desktop-scroll": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/CH_logo_horizontal.png",
+      "width": "192",
+      "height": "30",
+      "blockClass": "logo-desktop-scroll"
+    }
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  
+  "header-layout.mobile": {
+    "children": [
+      "theme",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-products",
+      "menu-item#category-ch-academy",
+      "menu-item#category-clube-de-assinatura",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  }
+}

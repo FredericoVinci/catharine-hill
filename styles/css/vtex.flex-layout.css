@@ -1,0 +1,170 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* HEADER */
+.flexCol--topbar-social, .flexCol--revendedores-oficiais  {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+
+/* HOME */
+
+.flexRow--main-banner{
+  margin-bottom: 105px;
+}
+
+
+.flexRowContent--conheca-mais{
+  background-image: url("assets/home/bg-sobre.svg");
+  background-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 45px 146px;
+  align-items: center;
+  margin-top: 80px;
+  aspect-ratio: 8.4;
+}
+
+.flexRow--categorias-destaque-title{
+  margin-top: 120px;
+  margin-bottom: 55px;
+}
+
+.flexRow--destaque{
+  margin-bottom: 60px;
+}
+
+
+.flexRow--home-banner{
+  margin: 60px 0;
+}
+
+.flexRow--shelfTitle{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.flexRow--shelfContent{
+  margin-bottom: 60px;
+}
+
+/* newsletter */
+
+.flexRow--newsletterRow{
+  margin-top: 60px;
+  background: linear-gradient(0deg, rgba(204,231,238,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+
+/* FOOTER */
+
+.flexRow--footerRow{
+  background: #CCE7EE;
+}
+
+.flexRow--footerCopy{
+  background-color: #0089AC;
+  padding: 30px 0;
+}
+
+.flexCol--footerCopyImages{
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* DEPARTAMENTO */
+.flexCol--filterCol{
+  border: 1px #A5A5A5 solid;
+  border-radius: 20px;
+  padding: 0 12px;
+  min-width: 287px;
+}
+
+.flexRow--searchBread{
+  margin-bottom: 30px;
+}

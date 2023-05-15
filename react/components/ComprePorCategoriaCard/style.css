@@ -1,0 +1,47 @@
+.cardHolder{
+    /* background: orchid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+
+.cardHolder:hover p{
+    font-weight: 600;
+}
+
+.cardHolder p {
+    font-size: 20px;
+    color: #202020;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+.imageHolder{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardHolder .imageHolder img {
+    transform: scale(1);
+    transition: 0.3s ease-out;
+}
+
+.cardHolder:hover .imageHolder img {
+    transform: scale(1.1);
+}
+
+.link a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

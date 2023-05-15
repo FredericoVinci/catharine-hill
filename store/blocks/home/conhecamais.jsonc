@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#conheca-mais": {
+        "children": [
+            "flex-layout.col#conheca-mais",
+            "flex-layout.col#saiba-mais"
+        ],
+        "props": {
+            "blockClass": "conheca-mais",
+            "colSizing": "auto"
+        }
+	},
+    "flex-layout.col#conheca-mais": {
+        "children":[
+            "rich-text#conheca-mais"
+        ],
+        "props": {
+            "blockClass": "conheca-mais"
+        }
+    },
+    "flex-layout.col#saiba-mais": {
+        "children":[
+            "rich-text#saiba-mais"
+        ],
+        "props": {
+            "blockClass": "saiba-mais"
+        }
+    },
+    "rich-text#conheca-mais": {
+        "props": {
+            "text":  "## Conheça mais a Catharine Hill",
+            "blockClass": "conheca-mais"
+        }
+    },
+    "rich-text#saiba-mais": {
+        "props": {
+            "text":  "[Saiba mais](/)",
+            "blockClass": "saiba-mais"
+        }
+    }
+}

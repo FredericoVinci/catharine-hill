@@ -1,0 +1,160 @@
+
+.footerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #202020;
+}
+
+.footerTop img{
+    width: 322px;
+    height: auto;
+    min-width: 100%;
+    margin-bottom: 60px;
+}
+
+.footerTop p{
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2.4px;
+    color: #202020;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 80px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.92px; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.footerGrid h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    margin: 0;
+    text-decoration: underline;
+    margin-bottom: 28px;
+}
+
+.footerGrid h3{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.92px; 
+    margin: 0;
+    margin-top: 28px;    
+}
+
+.footerGrid p{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.92px; 
+    margin: 0;
+}
+
+.footerGrid strong{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.92px;
+}
+
+
+.footerGrid a{
+    color: inherit;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.92px; 
+}
+
+.footerLinks a{
+    text-decoration: none;
+    line-height: 19px;
+}
+
+.footerLinks a:hover{
+    text-decoration: underline;
+}
+
+.footerLinks p{
+    line-height: 19px;
+}
+
+
+.footerSocial > div{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    
+}
+
+.footerSocial > div > a{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;    
+}
+
+.footerSocial > div > a > svg{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footerSocial > div > a > svg:nth-child(2){
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.footerSocial > div > a:hover > svg:nth-child(2){
+    opacity: 1;
+}
+
+.footerPagamento > ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 250px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footerPagamento > ul > li{
+    list-style: none;
+    width: 54px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+.footerSeguranca > ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 250px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footerSeguranca > ul > li{
+    list-style: none;
+    padding: 9px 11px;
+    width: 88px;
+    box-sizing: content-box;
+    border-radius: 6px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.68px;
+    line-height: 18px;
+}

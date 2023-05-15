@@ -1,0 +1,31 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "jsx": "react",
+    "noEmitOnError": false,
+    "typeRoots": [
+      "node_modules/@types",
+      "../@types"
+    ],
+    "types": [
+      "node",
+      "jest",
+      "graphql"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "include": [
+    "./types/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts"
+  ]
+}

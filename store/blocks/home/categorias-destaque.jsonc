@@ -1,0 +1,167 @@
+{
+    "flex-layout.row#categorias-destaque-title": {
+        "children": [
+            "flex-layout.col#categorias-destaque-title"
+        ],
+        "props":{
+            "blockClass": "categorias-destaque-title"
+        }
+    },
+    "flex-layout.col#categorias-destaque-title": {
+        "children": [
+            "rich-text#categorias-destaque-title"
+        ],
+        "props":{
+            "horizontalAlign": "center"   
+        }
+    },
+    "rich-text#categorias-destaque-title": {
+		"props": {
+			"text": "## Categorias em **DESTAQUE**",
+			"blockClass": "categorias-destaque-title"
+		}
+	},
+
+
+    "flex-layout.row#categorias-destaque": {
+        "children": [
+            "flex-layout.col#destaque1",
+            "flex-layout.col#destaque2",
+            "flex-layout.col#destaque3",
+            "flex-layout.col#destaque4"
+        ],
+        "props": {
+            "blockClass": "destaque",
+            "horizontalAlign": "between"
+        }
+    },
+
+
+    "flex-layout.col#destaque1": {
+        "children": [
+            "ComprePorCategoriaCard#destaque1"
+        ],
+        "props":{
+            "verticalAlign" : "top",
+            "horizontalAlign" : "center"
+        }
+    }, 
+    "ComprePorCategoriaCard#destaque1": {
+        "children":[
+            "image#destaque1",
+            "rich-text#destaque1",
+            "link#destaque1"
+        ]
+    }, 
+    "link#destaque1": {
+        "props": {
+            "href": "/outlet"
+        }
+    },
+    "image#destaque1": {
+        "props": {
+            "src": "assets/home/categoriasemdestaque/outlet.png"
+        }
+    },
+    "rich-text#destaque1": {
+        "props": {
+            "text": "Outlet"
+        }
+    },
+
+    "flex-layout.col#destaque2": {
+        "children": [
+            "ComprePorCategoriaCard#destaque2"
+        ],
+        "props":{
+            "verticalAlign" : "top",
+            "horizontalAlign" : "center"
+        }
+    }, 
+    "ComprePorCategoriaCard#destaque2": {
+        "children":[
+            "image#destaque2",
+            "rich-text#destaque2",
+            "link#destaque2"
+        ]
+    }, 
+    "link#destaque2": {
+        "props": {
+            "href": "/outlet"
+        }
+    },
+    "image#destaque2": {
+        "props": {
+            "src": "assets/home/categoriasemdestaque/assinatura.png"
+        }
+    },
+    "rich-text#destaque2": {
+        "props": {
+            "text": "Clube de Assinatura"
+        }
+    },
+
+    "flex-layout.col#destaque3": {
+        "children": [
+            "ComprePorCategoriaCard#destaque3"
+        ],
+        "props":{
+            "verticalAlign" : "top",
+            "horizontalAlign" : "center"
+        }
+    }, 
+    "ComprePorCategoriaCard#destaque3": {
+        "children":[
+            "image#destaque3",
+            "rich-text#destaque3",
+            "link#destaque3"
+        ]
+    }, 
+    "link#destaque3": {
+        "props": {
+            "href": "/outlet"
+        }
+    },
+    "image#destaque3": {
+        "props": {
+            "src": "assets/home/categoriasemdestaque/lovers.png"
+        }
+    },
+    "rich-text#destaque3": {
+        "props": {
+            "text": "Club CH Lovers"
+        }
+    },
+
+    "flex-layout.col#destaque4": {
+        "children": [
+            "ComprePorCategoriaCard#destaque4"
+        ],
+        "props":{
+            "verticalAlign" : "top",
+            "horizontalAlign" : "center"
+        }
+    }, 
+    "ComprePorCategoriaCard#destaque4": {
+        "children":[
+            "image#destaque4",
+            "rich-text#destaque4",
+            "link#destaque4"
+        ]
+    }, 
+    "link#destaque4": {
+        "props": {
+            "href": "/outlet"
+        }
+    },
+    "image#destaque4": {
+        "props": {
+            "src": "assets/home/categoriasemdestaque/cursos.png"
+        }
+    },
+    "rich-text#destaque4": {
+        "props": {
+            "text": "CH Academy"
+        }
+    }
+}

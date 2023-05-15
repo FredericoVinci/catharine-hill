@@ -1,0 +1,87 @@
+/* ROOT XD */
+:root {
+
+  /* Colors: */
+  --branco: #FFFFFF;
+  --cinza-claro: #F4F4F6;
+  --amarelo-principal: #E09F3F;
+  --verde-escuro: #104634;
+  --cinza-escurop: #69726B;
+  --verde-principal: #5E8C5F;
+  --laranja: #DE4A2F;
+  --unnamed-color-3b3c3d: #3B3C3D;
+  --cinza: #ACB7AF;
+  --verde-secundário: #909A69;
+  --preto: #333333;
+  --amarelo-secundário: #FEF0D1;
+
+  /* Font/text values */
+  --unnamed-font-family-lato: Lato;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-900: 900px;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-23: 23px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-46: 46px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-14: 14px;
+  --unnamed-line-spacing-24: 24px;
+}
+
+/* TOP-BAR {*/
+.vtex-flex-layout-0-x-flexRowContent--top-bar .pr0{
+  flex: 1;
+}
+.vtex-flex-layout-0-x-flexRowContent--top-bar .pr0{
+  justify-content: center;
+}
+.vtex-flex-layout-0-x-flexRowContent--top-bar .pr0:nth-child(3){
+  justify-content: right;
+}
+
+.vtex-slider-layout-0-x-slideChildrenContainer--carousel-topbar p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #51514C;
+  /* color: red; */
+  /* animation: fade-in-out 1s infinite; */
+
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* } */
+
+
+.vtex-store-components-3-x-infoCardCallActionContainer--info-card-bemVindo button{
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #AB1017;
+  letter-spacing: 2.4px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+}
+.vtex-store-components-3-x-infoCardCallActionContainer--info-card-bemVindo button:hover{
+  color: #AB1017;
+  background-color: transparent;
+}

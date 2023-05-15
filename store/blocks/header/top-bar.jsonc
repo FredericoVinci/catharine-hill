@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#topbar":{
+    "children": [
+        "flex-layout.col#revendedores-oficiais",
+        "flex-layout.col#topbar-spacer",
+        "flex-layout.col#topbar-social"
+      ]
+    },
+
+    "flex-layout.col#revendedores-oficiais":{
+      "children":[
+        "rich-text#revendedores-oficiais"
+      ],
+      "props": {
+        "blockClass": "revendedores-oficiais"
+      }
+    },
+    "rich-text#revendedores-oficiais": {
+      "props": {
+        "text": "[Revendedores Oficiais](/)",
+        "blockClass": "revendedores-oficiais"
+      }
+    },
+
+    "flex-layout.col#topbar-spacer":{
+      "props":{
+        "width": "25%"
+      }
+    },
+    "flex-layout.col#topbar-social":{
+      "props":{
+        "horizontal-align": "right",
+        "blockClass": "topbar-social"
+      },
+      "children":[
+        "rich-text#topbar-social"
+      ]
+    },
+    "rich-text#topbar-social": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[![ig](assets/header/social/header-ig.png)](/) [![fb](assets/header/social/header-fb.png)](/) [![yt](assets/header/social/header-yt.png)](/) [![tk](assets/header/social/header-tk.png)](/) [![in](assets/header/social/header-in.png)](/) [![pin](assets/header/social/header-pin.png)](/)",
+        "blockClass": "topbar-social"
+      }
+    }
+  }

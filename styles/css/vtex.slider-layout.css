@@ -1,0 +1,55 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  min-height: 450px;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  min-height: 550px;
+}
+
+
+/* home */
+
+.sliderLeftArrow--carousel{
+  left: -60px;
+}
+.sliderRightArrow--carousel{
+  right: -60px;
+}
+.caretIcon--carousel{
+  color: #A5A5A5;
+}
+.paginationDotsContainer--carousel {
+  top: calc(100% + 14px)
+}
+.paginationDot--carousel{
+  height: 4px !important;
+  width: 56px !important;
+  border-radius: 8px;  
+  padding: 0;
+}
+.paginationDot--carousel--isActive{
+  background-color: #0089AC;
+}

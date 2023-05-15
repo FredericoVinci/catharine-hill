@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#home-icons": {
+    "children": [
+      "flex-layout.col#icons1",
+      "flex-layout.col#icons2",
+      "flex-layout.col#icons3"
+    ],
+    "props": {
+      "blockClass": "icons",
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#icons1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props":{
+      "verticalAlign" : "top",
+      "horizontalAlign" : "center",
+      "width" : "30%"
+    }
+  },  
+  "image#deal1": {
+    "props": {
+      "src": "assets/home/icons/cruelty.svg",
+      "maxHeight": "126px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "## Cruelty Free \n Todos os produtos da marca são veganos, como a Go Vegan, que não faz nenhum tipo de teste em animais",
+      "blockClass": "icons",
+      "textAlignment": "CENTER"
+    }
+  },
+
+
+  "flex-layout.col#icons2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props":{
+      "verticalAlign" : "top",
+      "horizontalAlign" : "center",
+      "width" : "30%"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/home/icons/nacional.svg",
+      "maxHeight": "126px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "## A Catharine Hill É Brasileira \n Fundada em 1982 com o objetivo de elevar o patamar das maquiagens brasileiras a níveis internacionais",
+      "blockClass": "icons",
+      "textAlignment": "CENTER"
+    }
+  },
+
+
+  "flex-layout.col#icons3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props":{
+      "verticalAlign" : "top",
+      "horizontalAlign" : "center",
+      "width" : "30%"
+    }    
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/home/icons/profissional.svg",
+      "maxHeight": "126px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "## Qualidade Profissional \n Fundada em 1982 com o objetivo de elevar o patamar das maquiagens brasileiras a níveis internacionais",
+      "blockClass": "icons",
+      "textAlignment": "CENTER"
+    }
+  }
+}

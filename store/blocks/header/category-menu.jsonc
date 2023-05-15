@@ -1,0 +1,308 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-products",
+      "menu-item#category-ch-academy",
+      "menu-item#category-clube-de-assinatura"
+      //"menu-item#more"
+    ]
+  },
+
+  //Produtos
+  "menu-item#category-products": {
+    "props": {
+      "id": "menu-item-category-products",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/",
+        "noFollow": false,
+        "tagTitle": "Produtos",
+        "text": "Produtos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-products"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-products": {
+    "props": {
+      "width": "100"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-products"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-produtos-acessorios",
+      "menu-item#category-produtos-box-e-bags",
+      "menu-item#category-produtos-colecoes",
+      "menu-item#category-produtos-maquiagem-artistica",
+      "menu-item#category-produtos-maquiagem-social",
+      "menu-item#category-produtos-maquiagem-vegana",
+      "menu-item#category-produtos-skin-care",
+      "menu-item#category-produtos-outlet"
+    ]
+  },
+  "menu-item#category-produtos-acessorios": {
+    "props": {
+      "id": "menu-item-category-produtos-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-produtos-box-e-bags": {
+    "props": {
+      "id": "menu-item-category-produtos-box-e-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/box-e-bags",
+        "noFollow": false,
+        "tagTitle": "Box e Bags",
+        "text": "Box e Bags"
+      }
+    }
+  },
+  "menu-item#category-produtos-colecoes": {
+    "props": {
+      "id": "menu-item-category-produtos-colecoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/colecoes",
+        "noFollow": false,
+        "tagTitle": "Coleções",
+        "text": "Coleções"
+      }
+    }
+  },
+  "menu-item#category-produtos-maquiagem-artistica": {
+    "props": {
+      "id": "menu-item-category-produtos-maquiagem-artistica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/maquiagem-artistica",
+        "noFollow": false,
+        "tagTitle": "Maquiagem Artística",
+        "text": "Maquiagem Artística"
+      }
+    }
+  },
+  "menu-item#category-produtos-maquiagem-social": {
+    "props": {
+      "id": "menu-item-category-produtos-maquiagem-social",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/maquiagem-social",
+        "noFollow": false,
+        "tagTitle": "Maquiagem Social",
+        "text": "Maquiagem Social"
+      }
+    }
+  },
+  "menu-item#category-produtos-maquiagem-vegana": {
+    "props": {
+      "id": "menu-item-category-produtos-maquiagem-vegana",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/maquiagem-vegana",
+        "noFollow": false,
+        "tagTitle": "Maquiagem Vegana",
+        "text": "Maquiagem Vegana"
+      }
+    }
+  },
+  "menu-item#category-produtos-skin-care": {
+    "props": {
+      "id": "menu-item-category-produtos-skin-care",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/skin-care",
+        "noFollow": false,
+        "tagTitle": "Skin Care",
+        "text": "Skin Care"
+      }
+    }
+  },
+  "menu-item#category-produtos-outlet": {
+    "props": {
+      "id": "menu-item-category-produtos-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos/outlet",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+
+ 
+
+
+
+
+
+  "menu-item#category-ch-academy": {
+    "props": {
+      "id": "menu-item-category-ch-academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/catharine-hill-academy/",
+        "noFollow": false,
+        "tagTitle": "CH Academy",
+        "text": "CH Academy"
+      }
+    }
+  },
+  
+  "menu-item#category-clube-de-assinatura": {
+    "props": {
+      "id": "menu-item-category-clube-de-assinatura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clube-de-assinatura/",
+        "noFollow": false,
+        "tagTitle": "Clube de Assinatura",
+        "text": "Clube de Assinatura"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

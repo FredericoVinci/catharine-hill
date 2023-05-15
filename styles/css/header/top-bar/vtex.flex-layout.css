@@ -1,0 +1,18 @@
+/* 
+* INICIO TOP BAR
+*/
+
+.flexRow--top-bar{
+  background: url(assets/header/topbar/renda1920px.png) no-repeat center;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+  /* height: 42.4px; */
+}
+
+.flexRowContent--top-bar{
+  display: flex;
+}
+/* 
+* FIM TOP BAR
+*/

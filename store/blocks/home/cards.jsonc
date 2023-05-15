@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#home-cards": {
+      "children": [
+        "flex-layout.col#card1",
+        "flex-layout.col#card2",
+        "flex-layout.col#card3"
+      ],
+      "props": {
+        "blockClass": "cards",
+        "horizontalAlign": "between",
+        "verticalAlign" : "bottom"
+      }
+    },
+  
+    "flex-layout.col#card1": {
+      "children": [
+        "image#card1"
+      ],
+      "props":{
+        "verticalAlign" : "bottom",
+        "horizontalAlign" : "center",
+        "blockClass": "home-card"
+      }
+    },  
+    "image#card1": {
+      "props": {
+        "src": "assets/home/cards/home-card-1.png",
+        "link": {
+          "url": "#",
+          "attributeTitle": "" // disables the title option of the anchor tag
+        },
+        "blockClass": "home-card"
+      }
+    },
+
+    "flex-layout.col#card2": {
+      "children": [
+        "image#card2"
+      ],
+      "props":{
+        "verticalAlign" : "bottom",
+        "horizontalAlign" : "center",
+        "blockClass": "home-card"
+      }
+    },  
+    "image#card2": {
+      "props": {
+        "src": "assets/home/cards/home-card-2.png",
+        "link": {
+          "url": "#",
+          "attributeTitle": "" // disables the title option of the anchor tag
+        },
+        "blockClass": "home-card"
+      }
+    },
+
+    "flex-layout.col#card3": {
+      "children": [
+        "image#card3"
+      ],
+      "props":{
+        "verticalAlign" : "bottom",
+        "horizontalAlign" : "center",
+        "blockClass": "home-card"
+      }
+    },  
+    "image#card3": {
+      "props": {
+        "src": "assets/home/cards/home-card-3.png",
+        "link": {
+          "url": "#",
+          "attributeTitle": "" // disables the title option of the anchor tag
+        },
+        "blockClass": "home-card"
+      }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "theme": {
+        "component": "Theme"
+    },
+    "Menu": {
+        "component": "Menu"
+    },
+    "MenuDesktop": {
+        "component": "MenuDesktop"
+    },
+    "CustomLogin": {
+        "component": "CustomLogin"
+    },
+    "CustomFooter": {
+        "component": "CustomFooter",
+        "composition": "children"
+    },
+    "CustomNewsletter": {
+        "component": "CustomNewsletter",
+        "composition": "children"
+    },
+    "ComprePorCategoriaCard": {
+        "component": "ComprePorCategoriaCard",
+        "composition": "children"
+    }
+}

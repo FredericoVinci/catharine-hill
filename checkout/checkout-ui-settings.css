@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.v-custom-quantity-price__list--selling .vqc-ldelem{font-size:0}.v-custom-quantity-price__list--selling .vqc-ldelem::before{content:“cada”;font-size:10px}
+.summary-template-holder .summary-coupon fieldset.coupon-fieldset>div[style*=none] p.coupon-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.main-footer{background: #FFFFFF;}
+.content__payment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 97px;
+}
+
+ @media (max-width: 768px) {
+	 .content__payment {
+		 justify-content: center;
+		 height: 100%;
+		 margin-top: 40.23px;
+	}
+.summary-template-holder .cart-links-bottom {
+  position: relative!important;
+}
+#cart-to-orderform{
+      width:100%;
+padding: 10px 19px;
+border-radius: 50px;
+  }
+}
+ .orderform-template-holder .step .form-step fieldset.box-client-info-pj {
+  display:none!important;
+}
+
+.orderform-template-holder .step .form-step #is-corporate-client {
+  display: none!important;
+}
+
+ .grid {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+ @media (max-width: 768px) {
+	 .grid {
+		 width: 100%;
+		 justify-content: center;
+		 flex-wrap: wrap;
+		 margin-bottom: 20px;
+margin-top: 10px;
+		 height: 100%;
+	}
+
+.grid p {
+ width: 100%;
+text-align: center;
+}
+}
+
+img {
+margin-left: 10px;
+}
+
+.content__cnpj {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 100%;
+	 height: 74px;
+	 background-color: #ead1d4;
+}
+ .content__cnpj p {
+	 font-size: 12px;
+	 font-weight: 400;
+	 color: #51514c;
+	 text-transform: uppercase;
+}
+.summary-template-holder .cart-more-options{
+display: block!important;
+}
+.loading-img {
+display:none;
+}
+
+.body-cart-vertical .cart-template.full-cart.active {
+padding: 0 0 100px 0;
+}
+
+.row-fluid .full-cart.active, .row-fluid .orderform-template.active {
+padding:  0 0 100px 0;
+}
+
+.table.cart-items td.product-image a {
+margin-right: initial;
+}
+.table.cart-items td.product-image a, .table.cart-items td.product-image img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+border-radius: 0;
+    height: 100%;
+}
+
+.table.cart-items thead tr th.product-price, .table.cart-items thead tr th.quantity-price {
+margin-right: 70px;
+}
+
+.table.cart-items thead tr th.quantity {
+margin-right: 10px;
+}
+
+#cart-shipping-calculate {
+background: #EAD1D4;
+    color: #51514C;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#cart-coupon-add {
+background: #EAD1D4;
+    color: #51514C;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#payment-data-submit{
+background: #AB1017;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#cart-to-orderform {
+background: #AB1017;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#open-shipping {
+background: #ffffff;
+}
+
+.summary-template-holder .summary-coupon fieldset.coupon-fieldset p {
+margin: 10px 0;
+}
+ 

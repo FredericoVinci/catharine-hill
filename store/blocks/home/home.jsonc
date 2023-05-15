@@ -1,0 +1,153 @@
+{
+	"store.home": {
+		"blocks": [
+			"flex-layout.row#main-banner",
+			"flex-layout.row#home-icons",
+			"flex-layout.row#conheca-mais",
+			"__fold__",
+			"flex-layout.row#categorias-destaque-title",
+			"flex-layout.row#categorias-destaque",
+			"flex-layout.row#shelf-title1",
+			"flex-layout.row#shelf1",
+			"flex-layout.row#home-cards",
+			"flex-layout.row#shelf-title2",
+			"flex-layout.row#shelf2",
+			"flex-layout.row#home-banner",
+			"flex-layout.row#shelf-title3",
+			"flex-layout.row#shelf3"
+		]
+	},
+
+	"flex-layout.row#shelf-title1":{
+		"children": [
+			"rich-text#shelf-title1"
+		],
+		"props": {
+			"blockClass": "shelfTitle"
+		}
+	},
+	"rich-text#shelf-title1": {
+		"props": {
+			"text": "## Coleção \n [Veja todos](/)",
+			"blockClass": "shelfTitle"
+		}
+	},
+	"flex-layout.row#shelf1": {
+		"children": [
+			"list-context.product-list#demo1"
+		],
+		"props": {
+			"blockClass": "shelfContent"
+		}
+	},
+	"list-context.product-list#demo1": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#demo-products"],
+		"props": {
+			"orderBy": "OrderByTopSaleDESC"
+		}
+	},
+
+	"flex-layout.row#shelf-title2":{
+		"children": [
+			"rich-text#shelf-title2"
+		],
+		"props": {
+			"blockClass": "shelfTitle"
+		}
+	},
+	"rich-text#shelf-title2": {
+		"props": {
+			"text": "## Coleção \n [Veja todos](/)",
+			"blockClass": "shelfTitle"
+		}
+	},
+	"flex-layout.row#shelf2": {
+		"children": [
+			"list-context.product-list#demo2"
+		],
+		"props": {
+			"blockClass": "shelfContent"
+		}
+	},
+	"list-context.product-list#demo2": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#demo-products"],
+		"props": {
+			"orderBy": "OrderByTopSaleDESC"
+		}
+	},
+
+	"flex-layout.row#shelf-title3":{
+		"children": [
+			"rich-text#shelf-title3"
+		],
+		"props": {
+			"blockClass": "shelfTitle"
+		}
+	},
+	"rich-text#shelf-title3": {
+		"props": {
+			"text": "## Coleção \n [Veja todos](/)",
+			"blockClass": "shelfTitle"
+		}
+	},
+	"flex-layout.row#shelf3": {
+		"children": [
+			"list-context.product-list#demo3"
+		],
+		"props": {
+			"blockClass": "shelfContent"
+		}
+	},
+	"list-context.product-list#demo3": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#demo-products"],
+		"props": {
+			"orderBy": "OrderByTopSaleDESC"
+		}
+	},
+
+
+	"slider-layout#demo-products": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 3,
+				"phone": 1
+			},
+			"infinite": true,
+			"fullWidth": false,
+			"blockClass": "shelf"
+		}
+	},
+
+
+	"flex-layout.row#home-banner":{
+		"children": [
+			"flex-layout.col#home-banner"
+		  ],
+		  "props": {
+			"blockClass": "home-banner"
+		  }
+	},
+	"flex-layout.col#home-banner": {
+		"children": [
+		  "image#home-banner"
+		],
+		"props":{
+		  "blockClass": "home-banner"
+		}
+	},  
+	"image#home-banner": {
+		"props": {
+		"src": "assets/home/angel-wings.png",
+		"link": {
+			"url": "#",
+			"attributeTitle": "" // disables the title option of the anchor tag
+		},
+		"blockClass": "home-banner",
+		"width": "100%"
+		}
+	}
+}
